@@ -21,30 +21,118 @@ h1, h2, h3, p {
   background-color: #0c0c0c;
   border-bottom: 4px solid #e62429;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 50px; /* Mais espaçamento */
+  display: flex;
+  justify-content: center; /* Centraliza os itens */
+  align-items: center;
+  flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
 }
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #e62429 !important; /* Vermelho temático do Homem-Aranha */
   text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-right: auto; /* Mantém a marca alinhada à esquerda */
+  cursor: pointer;
 }
 
 .navbar-brand:hover {
   color: #f05454 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-link {
   font-weight: 600;
   color: #fff !important;
-  margin-right: 10px;
+  margin: 0 30px; /* Mais espaçamento entre os links */
   text-transform: uppercase;
+  font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
   color: #e62429 !important;
 }
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* Responsividade do Header */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .navbar-brand {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin: 10px 0; /* Espaçamento vertical entre os links no modo mobile */
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 2px;
+  }
+
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    width: 20px;
+    height: 2px;
+  }
+}
+
 
 /* Footer */
 footer {

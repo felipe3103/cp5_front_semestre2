@@ -14,7 +14,7 @@ function TabelaPrecos() {
         </thead>
         <tbody>
           <tr>
-            <td>Camisa Homem-Aranha</td>
+            <td>Camiseta Homem-Aranha</td>
             <td>R$ 59,90</td>
           </tr>
           <tr>
@@ -22,9 +22,34 @@ function TabelaPrecos() {
             <td>R$ 89,90</td>
           </tr>
           <tr>
-            <td>Mochila Homem-Aranha</td>
+            <td>Lança Teia Homem-Aranha</td>
             <td>R$ 119,90</td>
           </tr>
+          <tr>
+          <td>Mochila Homem-Aranha</td>
+          <td>R$ 149,99</td>
+          </tr>
+          <tr>
+            <td>Garrafa Homem-Aranha</td>
+            <td>R$ 29,90</td>
+          </tr>
+          <tr>
+            <td>Cabeça Homem-Aranha</td>
+            <td>R$ 175,0</td>
+          </tr>
+          <tr>
+            <td>Caneca Homem-Aranha</td>
+            <td>R$ 50,00</td>
+          </tr>
+          <tr>
+            <td>Relogio Homem-Aranha</td>
+            <td>R$  50,00</td>
+          </tr>
+          <tr>
+            <td>Fantasia Homem-Aranha</td>
+            <td>R$ 200,00</td>
+          </tr>
+        
         </tbody>
       </Table>
     </div>
