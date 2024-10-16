@@ -1,8 +1,19 @@
-# React + Vite
+# 🕷️ Spider-Man Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo à **Spider-Man Store**! Esta é uma loja online fictícia, construída com **React**, **Vite**, e **Bootstrap**, inspirada no universo do Homem-Aranha. A loja oferece diversos produtos temáticos, como camisetas, bonecos e acessórios, com um design moderno e responsivo.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto tem como objetivo demonstrar a construção de uma loja online simples utilizando **React** com **Vite** como bundler, além de estilização com **Bootstrap**. O foco está na criação de componentes reutilizáveis, interatividade com modais e layout responsivo para diferentes dispositivos.
+
+## 🚀 Tecnologias Utilizadas
+
+- **[React](https://reactjs.org/)**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **[Vite](https://vitejs.dev/)**: Ferramenta de desenvolvimento rápida para projetos web.
+- **[Bootstrap](https://getbootstrap.com/)**: Framework CSS que facilita a criação de layouts responsivos.
+- **[React-Bootstrap](https://react-bootstrap.github.io/)**: Componentes React baseados no Bootstrap.
+
+## Integrantes 
+-  Felipe Fernandes RM-554598
+- Gustavo Henrique Martins - 556956
+- Henrique Ignacio Bartalo -555274
